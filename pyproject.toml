@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "shennong-bencao-studio"
+version = "1.0.0"
+description = "Model-independent botanical editorial video toolkit for the Shennong Bencao series"
+requires-python = ">=3.11"
+dependencies = ["Pillow==12.1.1", "numpy==2.4.2", "scipy==1.17.1", "fonttools==4.62.1"]
+[project.scripts]
+bencao = "shennong_studio.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

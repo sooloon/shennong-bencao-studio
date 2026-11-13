@@ -1,0 +1,29 @@
+{
+  "canvas": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "accent": [
+    195,
+    37,
+    35
+  ],
+  "ink": [
+    18,
+    18,
+    18
+  ],
+  "font_profiles": {
+    "portable": {
+      "serif": "assets/fonts/NotoSerifCJKsc-Black.otf",
+      "sans": "assets/fonts/NotoSansCJKsc-Medium.otf"
+    },
+    "macos-reference": {
+      "serif": "/System/Library/Fonts/Supplemental/Songti.ttc",
+      "sans": "/System/Library/Fonts/STHeiti Medium.ttc"
+    }
+  },
+  "voiceover": false,
+  "map_source_credit_overlay": false
+}

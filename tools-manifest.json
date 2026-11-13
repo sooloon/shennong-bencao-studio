@@ -1,0 +1,24 @@
+{
+  "required_local": {
+    "python": ">=3.11",
+    "ffmpeg": "PATH",
+    "ffprobe": "PATH"
+  },
+  "optional_generation": {
+    "abstract": "generate_or_edit_image",
+    "codex_tool": "image_gen.imagegen",
+    "prompt": "prompts/botanical-assets.md",
+    "required_for_existing_episode": false
+  },
+  "research": {
+    "abstract": "search_and_read_primary_sources",
+    "examples": [
+      "web.run",
+      "browser"
+    ],
+    "required_for_new_episode": true
+  },
+  "voiceover": false,
+  "schedules": false,
+  "credentials_stored": false
+}

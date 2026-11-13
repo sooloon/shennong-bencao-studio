@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "assets/audio/qiannian-after-ambient-candidate.mp3",
+      "bytes": 3245964,
+      "sha256": "51d1a1e65d120caaca0f321ae10bbde9880cd41622a3ac0c44db04177ee7eaa6"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKsc-Medium.otf",
+      "bytes": 16523632,
+      "sha256": "ca094f6b0001fb048ca39ddd797a0cdb0179e1e55c6561e111c49c3e6a61d7b7"
+    },
+    {
+      "path": "assets/fonts/NotoSerifCJKsc-Black.otf",
+      "bytes": 24063000,
+      "sha256": "2c2af226af6170ac28730be03b16ee7ffa6144fe54471d9ebe8a03de97b58160"
+    },
+    {
+      "path": "assets/fonts/sans-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "assets/fonts/serif-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "assets/maps/china-standard-source.jpg",
+      "bytes": 33869,
+      "sha256": "2ff10797d94847674b2c74f4ebc2cb1e12565a831ba5d3c8d0563b04ca4b9d57"
+    },
+    {
+      "path": "episodes/001-gegen/assets/atlas.png",
+      "bytes": 2694709,
+      "sha256": "35226f6e57a58729f0ee18e727e978a7cdbad0a65e1ca600707ddd082f4365f2"
+    },
+    {
+      "path": "episodes/001-gegen/assets/cover.png",
+      "bytes": 1693671,
+      "sha256": "dff6e01976b6f5cc65d440b8ae981a9344e5655de8cd5a22c0b98b12c542608c"
+    },
+    {
+      "path": "episodes/001-gegen/assets/plant.png",
+      "bytes": 2508478,
+      "sha256": "0c94fa3b022f229d1fae1a3e0896da4c9f85dd1b3fb1da40023241ba736b3111"
+    },
+    {
+      "path": "reference-output/001-gegen-approved-v7.mp4",
+      "bytes": 11199858,
+      "sha256": "5c31f0bc1e3b89bca37856e3822c14aa9956d5bb907fd921e0f0c0fb2ba03972"
+    },
+    {
+      "path": "reference-output/001-gegen-map-preview.mp4",
+      "bytes": 788651,
+      "sha256": "343722ed5d12322df8c4bf4532f6037dac21e3ebb8f7a1963ab3db44745aa1ea"
+    },
+    {
+      "path": "skills/herbal-encyclopedia-video/assets/reference-ge-gen-classified-cover.png",
+      "bytes": 1693671,
+      "sha256": "dff6e01976b6f5cc65d440b8ae981a9344e5655de8cd5a22c0b98b12c542608c"
+    },
+    {
+      "path": "skills/herbal-encyclopedia-video/assets/reference-ge-gen-cover.png",
+      "bytes": 1452060,
+      "sha256": "8dd6cfaaa6ef17cb78950d062b1eb429b10739ac83792c4c4f9e36ddf5d80aee"
+    }
+  ],
+  "rights_document": "docs/assets-and-rights.md"
+}

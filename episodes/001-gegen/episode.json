@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "id": "001-gegen",
+  "title": "葛根",
+  "status": "ready",
+  "edition": "孙星衍、孙冯翼辑本",
+  "catalogue": {
+    "section": "草",
+    "grade": "中品",
+    "order": 3,
+    "label": "草部 · 中品 003",
+    "release_episode": 1
+  },
+  "cover": "episodes/001-gegen/assets/cover.png",
+  "map": "assets/maps/china-standard-source.jpg",
+  "music": {
+    "path": "assets/audio/qiannian-after-ambient-candidate.mp3",
+    "rights": "用户确认的候选音源；公开/商业使用权限未核实",
+    "edit": {
+      "first": [
+        0,
+        92
+      ],
+      "second": [
+        72,
+        132
+      ],
+      "crossfade": 4,
+      "volume": 0.7,
+      "fade_out": 3
+    }
+  },
+  "assets": {
+    "plant": {
+      "path": "episodes/001-gegen/assets/plant.png",
+      "crop": null
+    },
+    "vine": {
+      "path": "episodes/001-gegen/assets/plant.png",
+      "crop": [
+        0,
+        0,
+        1024,
+        820
+      ]
+    },
+    "leaf": {
+      "path": "episodes/001-gegen/assets/plant.png",
+      "crop": [
+        20,
+        100,
+        690,
+        690
+      ]
+    },
+    "root": {
+      "path": "episodes/001-gegen/assets/atlas.png",
+      "crop": [
+        0,
+        0,
+        627,
+        627
+      ]
+    },
+    "slice": {
+      "path": "episodes/001-gegen/assets/atlas.png",
+      "crop": [
+        627,
+        0,
+        1254,
+        627
+      ]
+    },
+    "powder": {
+      "path": "episodes/001-gegen/assets/atlas.png",
+      "crop": [
+        0,
+        627,
+        627,
+        1254
+      ]
+    },
+    "cloth": {
+      "path": "episodes/001-gegen/assets/atlas.png",
+      "crop": [
+        627,
+        627,
+        1254,
+        1254
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "id": "s00",
+      "title": "封面",
+      "text": "葛根：古人用它做衣服？",
+      "asset": "plant",
+      "layout": "cover",
+      "hold": 2.8,
+      "source_ids": [],
+      "data": {}
+    },
+    {
+      "id": "s01",
+      "title": "藤向上攀，根向下长",
+      "text": "同一株葛，用途随着部位分开。",
+      "asset": "plant",
+      "layout": "parts",
+      "hold": 4.2,
+      "source_ids": [
+        "cloth",
+        "origin"
+      ],
+      "data": {
+        "labels": [
+          "藤纤维",
+          "药用根"
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "title": "一头入衣裳，一头入药柜",
+      "text": "织衣取藤纤维；入药取地下的根。",
+      "asset": "cloth",
+      "layout": "cloth",
+      "hold": 3.6,
+      "source_ids": [
+        "cloth"
+      ],
+      "data": {}
+    },
+    {
+      "id": "s03",
+      "title": "药名，是一张部位说明书",
+      "text": "药材葛根，取豆科野葛的干燥根。",
+      "asset": "plant",
+      "layout": "wordpop",
+      "hold": 4.2,
+      "source_ids": [
+        "origin"
+      ],
+      "data": {
+        "words": [
+          "葛",
+          "植物之名",
+          "根",
+          "药用部位"
+        ]
+      }
+    },
+    {
+      "id": "s04",
+      "title": "三片叶子，长在一柄上",
+      "text": "三出复叶：一片复叶由三片小叶组成。",
+      "asset": "leaf",
+      "layout": "leafcount",
+      "hold": 4.3,
+      "source_ids": [
+        "smu"
+      ],
+      "data": {
+        "points": [
+          [
+            430,
+            410
+          ],
+          [
+            170,
+            655
+          ],
+          [
+            548,
+            648
+          ]
+        ],
+        "summary": "1柄 · 3片小叶"
+      }
+    },
+    {
+      "id": "s05",
+      "title": "翻开本经，找到它的位置",
+      "text": "孙星衍辑本：卷二中经，草部中品第3条。",
+      "asset": "root",
+      "layout": "bookindex",
+      "hold": 6.4,
+      "source_ids": [
+        "book"
+      ],
+      "data": {
+        "volume": "卷二 · 中经",
+        "category": "草部 · 中品",
+        "entries": [
+          [
+            "01",
+            "干姜"
+          ],
+          [
+            "02",
+            "枲耳实"
+          ],
+          [
+            "03",
+            "葛根"
+          ]
+        ],
+        "active": 2
+      }
+    },
+    {
+      "id": "s06",
+      "title": "它在古书里，还有一个名字",
+      "text": "“味甘，平。主消渴，身大热，呕吐……”",
+      "asset": "root",
+      "layout": "bookquote",
+      "hold": 6.2,
+      "source_ids": [
+        "book"
+      ],
+      "data": {
+        "book": "《神农本草经》",
+        "entry": "葛根条",
+        "quote": "味甘，平。",
+        "alias_prefix": "一名",
+        "alias": "鸡齐根",
+        "source_note": "古籍原文节选 · 孙星衍辑本"
+      }
+    },
+    {
+      "id": "s07",
+      "title": "古代的消渴，不能直译",
+      "text": "古代病证名，不能与今天的糖尿病简单画等号。",
+      "asset": "root",
+      "layout": "oldterm",
+      "hold": 5.3,
+      "source_ids": [
+        "term"
+      ],
+      "data": {
+        "left": "消渴",
+        "right": "现代糖尿病"
+      }
+    },
+    {
+      "id": "s08",
+      "title": "同一味药，古今写法有别",
+      "text": "本经记甘、平；现代炮制规范记甘、辛、凉。",
+      "asset": "slice",
+      "layout": "oldmodern",
+      "hold": 5.2,
+      "source_ids": [
+        "book",
+        "cq"
+      ],
+      "data": {
+        "old_label": "本经原文",
+        "old": "甘 · 平",
+        "new_label": "现代炮制规范",
+        "new": "甘 · 辛 · 凉",
+        "note": "分别呈现，不把今说写成古文。"
+      }
+    },
+    {
+      "id": "s09",
+      "title": "从书页，走进中国山野",
+      "text": "葛在我国多地有产，图中只是产地举例。",
+      "asset": "plant",
+      "layout": "mapplaces",
+      "hold": 7,
+      "source_ids": [
+        "smu",
+        "map"
+      ],
+      "data": {
+        "locations": [
+          {
+            "label": "湖南",
+            "label_position": [
+              380,
+              592
+            ],
+            "path": [
+              [
+                437,
+                568
+              ],
+              [
+                420,
+                554
+              ],
+              [
+                386,
+                566
+              ],
+              [
+                380,
+                570
+              ]
+            ]
+          },
+          {
+            "label": "河南",
+            "label_position": [
+              473,
+              443
+            ],
+            "path": [
+              [
+                449,
+                502
+              ],
+              [
+                449,
+                476
+              ],
+              [
+                472,
+                466
+              ]
+            ]
+          },
+          {
+            "label": "广东",
+            "label_position": [
+              445,
+              649
+            ],
+            "path": [
+              [
+                459,
+                625
+              ],
+              [
+                492,
+                625
+              ],
+              [
+                492,
+                649
+              ]
+            ]
+          },
+          {
+            "label": "浙江",
+            "label_position": [
+              593,
+              488
+            ],
+            "path": [
+              [
+                517,
+                548
+              ],
+              [
+                545,
+                526
+              ],
+              [
+                562,
+                512
+              ],
+              [
+                593,
+                512
+              ]
+            ]
+          },
+          {
+            "label": "四川",
+            "label_position": [
+              260,
+              514
+            ],
+            "path": [
+              [
+                352,
+                557
+              ],
+              [
+                326,
+                544
+              ],
+              [
+                305,
+                539
+              ],
+              [
+                305,
+                516
+              ]
+            ]
+          }
+        ],
+        "summary": "多地有产",
+        "scope": "产地举例 · 不代表完整分布"
+      }
+    },
+    {
+      "id": "s10",
+      "title": "野生之外，也有人种它",
+      "text": "同一片山野里，野生采收与人工种植并存。",
+      "asset": "root",
+      "layout": "mapcultivation",
+      "hold": 6.8,
+      "source_ids": [
+        "jinzhai",
+        "map"
+      ],
+      "data": {
+        "path": [
+          [
+            482,
+            527
+          ],
+          [
+            462,
+            514
+          ],
+          [
+            462,
+            500
+          ],
+          [
+            493,
+            498
+          ]
+        ],
+        "label": "安徽 · 金寨",
+        "label_position": [
+          493,
+          473
+        ],
+        "year": "2024年公开资料",
+        "quantity_label": "人工种植约",
+        "value": 200,
+        "unit": "亩"
+      }
+    },
+    {
+      "id": "s11",
+      "title": "秋冬，轮到地下的故事",
+      "text": "药材秋冬采挖，趁鲜切片或切块，再干燥。",
+      "asset": "root",
+      "layout": "toslice",
+      "hold": 4.5,
+      "source_ids": [
+        "origin"
+      ],
+      "data": {
+        "from_asset": "root",
+        "to_asset": "slice",
+        "label": "秋 · 冬"
+      }
+    },
+    {
+      "id": "s12",
+      "title": "根的纹理，留在切面上",
+      "text": "常见厚片或块状，纤维性较强；并非一团白粉。",
+      "asset": "slice",
+      "layout": "zoom",
+      "hold": 4.1,
+      "source_ids": [
+        "origin"
+      ],
+      "data": {}
+    },
+    {
+      "id": "s13",
+      "title": "“解肌退热”，说得近一点",
+      "text": "传统用于某些外感中的发热、项背不舒，仍需辨证。",
+      "asset": "root",
+      "layout": "plainpop",
+      "hold": 6,
+      "source_ids": [
+        "cq"
+      ],
+      "data": {
+        "lines": [
+          "某些外感",
+          "发热 · 项背不舒"
+        ]
+      }
+    },
+    {
+      "id": "s14",
+      "title": "“生津止渴”，也有前提",
+      "text": "传统中医的辨证用法；不是口渴就适合吃葛根。",
+      "asset": "root",
+      "layout": "plainpop",
+      "hold": 5.8,
+      "source_ids": [
+        "cq"
+      ],
+      "data": {
+        "lines": [
+          "津液与口渴",
+          "仍须辨证"
+        ]
+      }
+    },
+    {
+      "id": "s15",
+      "title": "到了药柜，名字开始分岔",
+      "text": "葛根、粉葛、葛粉，看似相近，却不是同一回事。",
+      "asset": "plant",
+      "layout": "carousel",
+      "hold": 5,
+      "source_ids": [
+        "origin",
+        "food"
+      ],
+      "data": {
+        "cards": [
+          [
+            "root",
+            "葛根"
+          ],
+          [
+            "plant",
+            "粉葛"
+          ],
+          [
+            "powder",
+            "葛粉"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s16",
+      "title": "先分植物，再谈用途",
+      "text": "葛根来自野葛；粉葛来自甘葛藤，药材分别列项。",
+      "asset": "plant",
+      "layout": "origins",
+      "hold": 5.8,
+      "source_ids": [
+        "origin"
+      ],
+      "data": {
+        "columns": [
+          [
+            180,
+            "葛根",
+            "野葛"
+          ],
+          [
+            535,
+            "粉葛",
+            "甘葛藤"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s17",
+      "title": "粉葛，不是磨成粉的葛根",
+      "text": "“粉葛”是药材名；“葛粉”常指加工制品。",
+      "asset": "root",
+      "layout": "namecompare",
+      "hold": 4.8,
+      "source_ids": [
+        "origin",
+        "food"
+      ],
+      "data": {
+        "left_asset": "plant",
+        "right_asset": "powder",
+        "columns": [
+          [
+            "粉葛",
+            "药材名"
+          ],
+          [
+            "葛粉",
+            "加工制品"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s18",
+      "title": "一碗葛粉，经过四道工序",
+      "text": "常见食用葛粉经分离加工，以淀粉为主。",
+      "asset": "powder",
+      "layout": "steps",
+      "hold": 5.8,
+      "source_ids": [
+        "food"
+      ],
+      "data": {
+        "steps": [
+          "粉碎",
+          "过滤",
+          "沉淀",
+          "干燥"
+        ]
+      }
+    },
+    {
+      "id": "s19",
+      "title": "研成粉，与提取淀粉不同",
+      "text": "根部直接研磨的全粉，不等于分离得到的淀粉。",
+      "asset": "powder",
+      "layout": "twoPowders",
+      "hold": 4.7,
+      "source_ids": [
+        "food"
+      ],
+      "data": {
+        "left_asset": "powder",
+        "right_asset": "powder",
+        "columns": [
+          [
+            "全粉",
+            "根部直接研磨"
+          ],
+          [
+            "淀粉",
+            "分离所得"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s20",
+      "title": "药材质量，也有数字可查",
+      "text": "2018保山地方标准示例：干燥药材葛根素≥2.4%。",
+      "asset": "slice",
+      "layout": "counter",
+      "hold": 6.3,
+      "source_ids": [
+        "marker"
+      ],
+      "data": {
+        "value": 2.4,
+        "prefix": "≥",
+        "suffix": "%",
+        "decimals": 1,
+        "note": "干燥品 · 葛根素质量门槛"
+      }
+    },
+    {
+      "id": "s21",
+      "title": "2.4%，让它变得看得见",
+      "text": "每100g干燥药材，至少2.4g葛根素；只是比例换算。",
+      "asset": "slice",
+      "layout": "grid",
+      "hold": 6.8,
+      "source_ids": [
+        "marker"
+      ],
+      "data": {
+        "basis": 100,
+        "quantity": 2.4,
+        "unit": "g",
+        "prefix": "≥",
+        "note": "100格：示意整体",
+        "part_note": "红色：其中的2.4%"
+      }
+    },
+    {
+      "id": "s22",
+      "title": "这把尺，量的是药材质量",
+      "text": "质量指标不是疗效比例，也不能直接套给食品葛粉。",
+      "asset": "powder",
+      "layout": "boundary",
+      "hold": 5.5,
+      "source_ids": [
+        "marker",
+        "food"
+      ],
+      "data": {
+        "left": "质量指标",
+        "right": "疗效比例"
+      }
+    },
+    {
+      "id": "s23",
+      "title": "听到葛根素，再分清一层",
+      "text": "成分、整味药材、食品葛粉，不能互相替代研究结论。",
+      "asset": "root",
+      "layout": "compound",
+      "hold": 5.2,
+      "source_ids": [
+        "origin",
+        "food"
+      ],
+      "data": {
+        "columns": [
+          [
+            "葛根素",
+            "单一成分"
+          ],
+          [
+            "葛根",
+            "整味药材"
+          ],
+          [
+            "葛粉",
+            "加工制品"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s24",
+      "title": "挑一包葛粉，先翻到背面",
+      "text": "看品名、配料表和执行标准；食品不能直接替代处方药材。",
+      "asset": "powder",
+      "layout": "pack",
+      "hold": 6,
+      "source_ids": [
+        "food"
+      ],
+      "data": {
+        "fields": [
+          [
+            "品名",
+            115
+          ],
+          [
+            "配料表",
+            337
+          ],
+          [
+            "执行标准",
+            575
+          ]
+        ],
+        "active": 1
+      }
+    },
+    {
+      "id": "s25",
+      "title": "从古书到山野，再到药柜",
+      "text": "读原文、认来源、分加工，才算认识了这味药。",
+      "asset": "plant",
+      "layout": "recap",
+      "hold": 4,
+      "source_ids": [
+        "book",
+        "origin",
+        "food"
+      ],
+      "data": {
+        "steps": [
+          "读原文",
+          "认来源",
+          "分加工"
+        ],
+        "active": 1
+      }
+    },
+    {
+      "id": "s26",
+      "title": "把问题留给你手里那一包",
+      "text": "你买的“葛根粉”，配料表第一位写的是什么？",
+      "asset": "powder",
+      "layout": "end",
+      "hold": 5,
+      "source_ids": [],
+      "data": {}
+    }
+  ],
+  "locked_cuts": [
+    0,
+    2.899,
+    7.0,
+    10.595,
+    14.8,
+    18.991,
+    25.5,
+    31.7,
+    37.0,
+    42.081,
+    49.278,
+    56.0,
+    60.672,
+    64.571,
+    70.468,
+    76.4,
+    81.4,
+    87.2,
+    92.058,
+    97.856,
+    102.5,
+    108.8,
+    115.548,
+    121.1,
+    126.3,
+    132.3,
+    136.3,
+    141.29166666666666
+  ],
+  "sources": [
+    {
+      "id": "book",
+      "title": "神农本草经·孙星衍、孙冯翼辑本",
+      "url": "https://zh.wikisource.org/wiki/神農本草經_(孫星衍)",
+      "supports": [
+        "葛根草中品第3条",
+        "本经原文与别名"
+      ],
+      "checked": "2026-11-13"
+    },
+    {
+      "id": "smu",
+      "title": "南方医科大学岭南中草药科普基地·葛根",
+      "url": "https://portal.smu.edu.cn/lnzcykpjd/info/1048/1049.htm",
+      "supports": [
+        "三出复叶",
+        "传统功效",
+        "五省产地举例"
+      ],
+      "caveat": "来源范围合列，不能用该页证明现行基原分别列项"
+    },
+    {
+      "id": "jinzhai",
+      "title": "金寨县中药产业中心2024年提案答复",
+      "url": "https://www.ahjinzhai.gov.cn/public/6624965/38275886.html",
+      "supports": [
+        "2024年人工种植约200亩"
+      ],
+      "date": "2024-06-05"
+    },
+    {
+      "id": "marker",
+      "title": "DB5305/T26—2018附录D",
+      "url": "https://lcj.yn.gov.cn/uploadfile/s37/2025/0403/20250403051842113.pdf",
+      "supports": [
+        "干燥药材葛根素≥2.4%"
+      ],
+      "caveat": "历史地方标准示例；不是最新药典、剂量或疗效比例"
+    },
+    {
+      "id": "cq",
+      "title": "重庆市中药饮片炮制规范2022",
+      "url": "https://yaojianju.cq.gov.cn/zwgk_n2104/zfxxgkml/zcwjn2104/qtwjn2104/202204/P020220424552289378125.pdf",
+      "supports": [
+        "现代性味及传统功效"
+      ]
+    },
+    {
+      "id": "food",
+      "title": "DBS42/006—2022食品葛粉",
+      "url": "https://wjw.hubei.gov.cn/zfxxgk/zc/gkwj/ywh/202207/P020220726386767554962.pdf",
+      "supports": [
+        "葛粉加工与制品区别"
+      ]
+    },
+    {
+      "id": "origin",
+      "title": "西湖大学神农知识库葛根/粉葛",
+      "url": "https://shennongalpha.westlake.edu.cn/knowledge/nmm-01v3",
+      "additional_url": "https://shennongalpha.westlake.edu.cn/knowledge/nmm-01nu",
+      "supports": [
+        "基原与药用部位分别列项"
+      ]
+    },
+    {
+      "id": "term",
+      "title": "中华中医药学会中医药科普标准知识库",
+      "url": "https://www.cacm.org.cn/spskl/item/?item_id=10002",
+      "supports": [
+        "消渴与糖尿病不能简单等同"
+      ]
+    },
+    {
+      "id": "cloth",
+      "title": "山东中医药高等专科学校·一条葛根蔓延千年",
+      "url": "https://shixunjidi.sdctcm.edu.cn/info/1811/7451.htm",
+      "supports": [
+        "葛藤纤维与织物用途"
+      ]
+    },
+    {
+      "id": "map",
+      "title": "自然资源部供图，中国新闻网2023年标准地图发布报道",
+      "url": "https://www.chinanews.com/gn/2023/08-28/10068281.shtml",
+      "asset_url": "https://i2.chinanews.com.cn/simg/ypt/2023/230828/e063c2af-26b3-4015-8bfd-b60440587b37_zsite.jpg",
+      "supports": [
+        "完整中国底图"
+      ],
+      "caveat": "700×496报道附图；新专题层未取得独立审图认可"
+    }
+  ],
+  "review": {
+    "visual": "用户已认可V7整体效果",
+    "factual": "资料核对记录见references；未进行独立临床专业审查"
+  }
+}

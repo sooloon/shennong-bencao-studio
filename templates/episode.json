@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "new-herb",
+  "title": "待核对药名",
+  "status": "draft",
+  "edition": "孙星衍、孙冯翼辑本",
+  "catalogue": {
+    "section": "待核对",
+    "grade": "待核对",
+    "order": null,
+    "label": "待核对",
+    "release_episode": null
+  },
+  "cover": "episodes/new-herb/assets/cover.png",
+  "map": "assets/maps/china-standard-source.jpg",
+  "music": {
+    "path": "assets/audio/qiannian-after-ambient-candidate.mp3",
+    "rights": "用户确认的候选音源；公开/商业使用权限未核实",
+    "edit": {
+      "first": [
+        0,
+        92
+      ],
+      "second": [
+        72,
+        132
+      ],
+      "crossfade": 4,
+      "volume": 0.7,
+      "fade_out": 3
+    }
+  },
+  "assets": {
+    "plant": {
+      "path": "episodes/new-herb/assets/plant.png",
+      "crop": null
+    }
+  },
+  "scenes": [
+    {
+      "id": "cover",
+      "title": "封面",
+      "text": "待核对真实钩子",
+      "asset": "plant",
+      "layout": "cover",
+      "hold": 2.8,
+      "source_ids": [],
+      "data": {}
+    },
+    {
+      "id": "intro",
+      "title": "待核对主题",
+      "text": "填写有来源的连续知识正文，不能沿用葛根事实。",
+      "asset": "plant",
+      "layout": "art_text",
+      "hold": 6,
+      "source_ids": [],
+      "data": {}
+    }
+  ],
+  "sources": []
+}
